@@ -119,10 +119,10 @@ class AnimationStack {
           animation.generateFrames();
         }
       }
-    } catch (ConcurrentModificationException e) {
-      // Occurs when we try to add or remove an Animation whose layer we are currently generating
-      // frames for. We just ignore the exception since the frames will be properly generated 
-      // on the next invocation of this method and the missing frames will be imperceptible.
+    } catch (ConcurrentModificationException expected) {
+      // Occurs when we add/remove an Animation to/from a layer we are currently generating frames
+      // for. We just ignore the exception since the frames will be properly generated on the next
+      // invocation of this method and the missing frames will be imperceptible.
     }
   }
 }
