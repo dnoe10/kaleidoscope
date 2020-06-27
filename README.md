@@ -4,11 +4,11 @@ This project is written for a specific hardware configuration in my room and is 
 
 **NOTE:** Processing requires that all .pde files reside in the same-level directory. For this reason, there are no subdirectories in this project. I can remove this limitation by converting the project to pure Java, though that is not a priority at the moment.
 
-## Demo
+## Demos
 
 https://youtu.be/YYPqyf0oePs
 
-This is a quick demo of a previous version of the project. Like the current iteration, it's just a prototype.
+https://youtu.be/2EUHKSSlQbg
 
 ## Files
 

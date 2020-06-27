@@ -1,6 +1,6 @@
 class LaunchControl extends MidiHardware {
-  private static final int IN_DEVICE_NUM = 1;
-  private static final int OUT_DEVICE_NUM = 4;
+  private static final int IN_DEVICE_NUM = 0;
+  private static final int OUT_DEVICE_NUM = 3;
   private static final int CHANNEL = 8;
 
   public LaunchControl(PApplet applet) {

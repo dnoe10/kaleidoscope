@@ -1,6 +1,6 @@
 class Launchpad extends MidiHardware {
-  private static final int IN_DEVICE_NUM = 0;
-  private static final int OUT_DEVICE_NUM = 3;
+  private static final int IN_DEVICE_NUM = 1;
+  private static final int OUT_DEVICE_NUM = 4;
   private static final int CHANNEL = 0;
 
   public Launchpad(PApplet applet) {
